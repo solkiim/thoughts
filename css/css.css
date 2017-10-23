@@ -36,6 +36,17 @@ body {
 	color: #82848b;
 }
 
+/*------------------- GENERAL -------------------*/
+a:link, a:visited {
+	text-decoration: none;
+    color: lightgray;
+}
+
+a:hover, a:active {
+	color: black;
+}
+
+
 /*------------------- HEADER -------------------*/
 
 #header {
