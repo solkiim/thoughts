@@ -1,2 +1,2 @@
-# study-abroad
-site for study abroad pictures
+# thoughts
+site for misc thoughts
