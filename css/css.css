@@ -47,44 +47,76 @@ a:hover, a:active {
 }
 
 
-/*------------------- HEADER -------------------*/
-
-#header {
-	height: 150px;
-	padding: 0px 50px;
-}
-
+/* ------------------ NAVIGATION ------------------ */
 #logo-title {
 	float: left;
+	text-align: left;
 }
-
 #logo-title h1 {
 	letter-spacing: 5px;
 }
-
 #logo-title h6 {
 	letter-spacing: 2px;
 }
-
-#menu {
-	float: right;
-	line-height: 150px;
+.navbar {
+    z-index: 1000;
+	background-color: #fff;
+/*	background-color: pink;*/
 }
-
-#menu ul {
-	list-style-type: none;
+.navbar-default {
+	border-color: transparent;
 }
-
-#menu ul li {
-	margin: 0px 20px;
-	display: inline;
-	letter-spacing: 2px;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: bottom!important;
 }
-
-#menu ul li.active {
-	color: black;
-	font-weight: 800;
+.navbar .navbar-collapse {
+    text-align: right;
 }
+.navbar .navbar-collapse li {
+	color: #000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+	background-color: transparent;
+}
+#myNavbar ul {
+    list-style: none; 
+}
+#myNavbar ul li {
+    letter-spacing: 2px;
+}
+#myNavbar a {
+	text-decoration: none;
+	color: #000;
+}
+#myNavbar a:hover {
+	color: #778899;
+}
+#myNavbar .active a {
+    color: #778899;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent;
+}
+/*
+@media (min-width: 768px) {
+	.nav {
+		height: 100px;
+	}
+	.navbar .navbar-collapse {
+		height: 100px;
+	}
+	.navbar .navbar-nav {
+		height: 100px;
+	}
+}
+@media (max-width: 767px) {
+	.nav {
+		height: 50px;
+	}
+}
+*/
 
 /*------------------- FOTORAMA -------------------*/
 .fotorama {
