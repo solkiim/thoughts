@@ -122,15 +122,19 @@ a:hover, a:active {
 }
 
 
-/*------------------- PHOTO CAROUSEL -------------------*/
-.photos {
+/*------------------- FOTORAMA -------------------*/
+.fotorama {
 	width: 100%;
-	height: 600px; 
-	background-color: pink; 
-	margin: 0;
 }
 
-.photos img {
-	height: 600px; 
-	padding: 0;
+/* phones */
+@media only screen and (max-width: 767px) {
+	body {
+		
+	}
+	
+	#initDiv h1, #room_search, #rooms, #roomResults {
+		font-weight: normal;
+	}
+    
 }
