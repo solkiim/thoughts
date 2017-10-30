@@ -1,5 +1,5 @@
 #books {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 #books h4 {
@@ -20,7 +20,7 @@
 	line-height: 30px;
 }
 
-#booklist li span {
+#booklist li a {
 	font-weight: 800;
 	color: #000;
 }
