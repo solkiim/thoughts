@@ -1,0 +1,24 @@
+#books {
+
+}
+
+#books h4 {
+	font-size: 30px;
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#booklist {
+	list-style: none;
+}
+
+#booklist li {
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+#booklist li span {
+	font-weight: 800;
+	color: #000;
+}
