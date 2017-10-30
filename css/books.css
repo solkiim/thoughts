@@ -11,6 +11,8 @@
 
 #booklist {
 	list-style: none;
+	margin-left: 0;
+	padding: 0;
 }
 
 #booklist li {
