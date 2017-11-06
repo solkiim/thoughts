@@ -82,13 +82,13 @@ a:hover, a:active {
 }
 #myNavbar a {
 	text-decoration: none;
-	color: #000;
-}
-#myNavbar a:hover {
 	color: #778899;
 }
+#myNavbar a:hover {
+	color: #000;
+}
 #myNavbar .active a {
-    color: #778899;
+    color: #000;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent;

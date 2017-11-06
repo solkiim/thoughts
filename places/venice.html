@@ -52,26 +52,26 @@
 	</div>
 	
 	<div class="grid">
-	  <div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_1897.jpg" style="width: 300px;"></div>
-	  <div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2124.jpg" style="width: 300px;"></div>
-	  <div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2126.jpg" style="width: 300px;"></div>
-	  <div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2127.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2128.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2129.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2130.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2131.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2132.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2134.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2135.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2136.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2137.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2143.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2144.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2145.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2146.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2147.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2148.jpg" style="width: 300px;"></div>
-		<div class="grid-item" style="width: 300px;"><img src="../img/venice/IMG_2152.jpg" style="width: 300px;"></div>
+	  <div class="grid-item"><img src="../img/venice/IMG_1897.jpg"></div>
+	  <div class="grid-item"><img src="../img/venice/IMG_2124.jpg"></div>
+	  <div class="grid-item"><img src="../img/venice/IMG_2126.jpg"></div>
+	  <div class="grid-item"><img src="../img/venice/IMG_2127.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2128.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2129.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2130.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2131.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2132.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2134.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2135.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2136.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2137.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2143.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2144.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2145.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2146.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2147.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2148.jpg"></div>
+		<div class="grid-item"><img src="../img/venice/IMG_2152.jpg"></div>
 	</div>
 	
 	<script>
@@ -79,6 +79,7 @@
 			itemSelector: '.grid-item',
 			columnWidth: 300,
 			fitWidth: true,
+			gutter: 10,
 		});
 		$grid.imagesLoaded().progress( function() {
 			$grid.masonry('layout');
