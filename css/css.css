@@ -31,6 +31,10 @@ body {
 	background-attachment: fixed;
 	height: 100%;
 	font-family: 'HelveticaNeue-Light', "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+/*
+	font-family: 'Avenir-Light';
+	font-family: 'GillSans-Light';
+*/
 	margin: 0px;
 	padding: 0px;
 	color: #82848b;
@@ -114,7 +118,23 @@ a:hover, a:active {
 	margin-left: 50px;
 }
 #logo-title h1 {
-	letter-spacing: 5px;
+	font-family: 'Argentinian Nights by Kestrel Montes';
+	font-family: 'Eastpine';
+	font-family: 'Elfa Brush';
+	font-family: 'Get Lucky';
+	font-family: 'Jacques & Gilles';
+	font-family: 'King Size';
+	font-family: 'Markella';
+	font-family: 'Mocking';
+	font-family: 'Rabusto';
+	font-family: 'Scallion';
+	font-family: 'Selima';
+	font-family: 'Signerica Fat';
+/*
+	font-family: 'silicia script';
+	font-family: 'streetlight';
+*/
+/*	letter-spacing: 5px;*/
 }
 #logo-title h6 {
 	letter-spacing: 2px;
@@ -122,9 +142,12 @@ a:hover, a:active {
 
 
 /*------------------- PHOTO CAROUSEL -------------------*/
-.photos {
+#photos-container {
 	width: 100%;
-	height: 600px; 
+	height: 600px;
+/*	height: 50%;*/
+}
+.photos {
 	margin: 0;
 }
 
