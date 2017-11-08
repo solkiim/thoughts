@@ -8,6 +8,10 @@
 	margin-bottom: 15px;
 }
 
+.grid {
+	margin: 0 auto;
+}
+
 .place-description h6 {
 	letter-spacing: 2px;
 	margin-bottom: 50px;

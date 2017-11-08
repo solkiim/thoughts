@@ -1,0 +1,20 @@
+/*------------------- PHOTO CAROUSEL -------------------*/
+#photos-container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 600px;
+/*	height: 50%;*/
+}
+.photos {
+	margin: 0;
+}
+
+.photos img {
+	height: 600px; 
+	padding: 0;
+	margin-left: 10px;
+}
+.photos img:focus {
+	outline:0;
+}
