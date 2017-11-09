@@ -25,10 +25,12 @@
 #intro p {
 	letter-spacing: 2px;
 	line-height: 30px;
+	margin-bottom: 45px;
 }
 
 #intro a {
 	font-weight: 800;
+	color: #96CDCD;
 }
 
 #social-media {
