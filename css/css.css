@@ -131,6 +131,7 @@ a:hover, a:active {
 	margin-left: 50px;
 }
 #logo-title h1 {
+/*
 	font-family: 'Argentinian Nights by Kestrel Montes';
 	font-family: 'Eastpine';
 	font-family: 'Elfa Brush';
@@ -142,12 +143,13 @@ a:hover, a:active {
 	font-family: 'Rabusto';
 	font-family: 'Scallion';
 	font-family: 'Selima';
+*/
 	font-family: 'SignericaFat', 'Signerica';
 /*
 	font-family: 'silicia script';
 	font-family: 'streetlight';
+	letter-spacing: 5px;
 */
-/*	letter-spacing: 5px;*/
 }
 #logo-title h6 {
 	letter-spacing: 2px;

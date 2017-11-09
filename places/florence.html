@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>florence</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../img/icon.ico">
+	
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/css.css">
+	<link rel="stylesheet" href="../css/places-specific.css">
+	
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/masonry.pkgd.min.js"></script>
+	<script src="../js/imagesloaded.pkgd.min.js"></script>
+</head>
+
+<body>
+	<!-- Navigation -->
+    <nav class="nav navbar navbar-default" id="sticker">
+        <div class="container-fluid">
+            <div class="navbar-header">
+				<a href="../index.html">
+					<div id="logo-title">
+						<h1>sol</h1>
+						<h6>etc</h6>
+					</div>
+				</a>
+                <button type="button" id="hamburger-menu" class="navbar-toggle hamburger" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../about.html">about</a></li>
+						<li class="active"><a href="../places.html">places</a></li>
+						<li><a href="../1se.html">snippets</a></li>
+						<li><a href="../books.html">books</a></li>
+						<li><a href="http://solkim.com/" target="_blank">portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+	
+	
+	<!-- Place Description -->
+	<div class="place-description">
+		<h1>florence</h1>
+		<h6>2017</h6>
+	</div>
+	
+	
+	<!-- Images Grid -->
+	<div class="grid">
+		<div class="grid-item"><img src="../img/florence/IMG_4118.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4129.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4134.PNG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4117.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4124.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4130.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4140.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4135.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4139.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4131.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4125.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4127.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4138.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4136.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4137.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4120.JPG"></div>
+		<div class="grid-item"><img src="../img/florence/IMG_4128.JPG"></div>
+	</div>
+	
+	<script>
+		var $grid = $('.grid').masonry({
+			itemSelector: '.grid-item',
+			columnWidth: 300,
+			fitWidth: true,
+			gutter: 10,
+		});
+		$grid.imagesLoaded().progress( function() {
+			$grid.masonry('layout');
+		});
+	</script>
+</body>
+</html>
