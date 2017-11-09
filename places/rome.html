@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/css.css">
 	<link rel="stylesheet" href="../css/places-specific.css">
+	<link rel="stylesheet" href="../css/magnificpopup.css">
 	
 	<script src="../js/jquery-3.1.0.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../js/magnificpopup.min.js"></script>
 </head>
 
 <body>
@@ -55,34 +57,25 @@
 	
 	
 	<!-- Images Grid -->
-	<div class="grid">
-		<div class="grid-item"><img src="../img/rome/IMG_4099.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4093.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4094.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4096.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4103.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4109.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4102.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4115.PNG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4106.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4108.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4107.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4104.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4097.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4101.JPG"></div>
-		<div class="grid-item"><img src="../img/rome/IMG_4110.JPG"></div>
+	<div class="grid popup-gallery">
+		<div class="grid-item"><a href="../img/rome/1.JPG"><img src="../img/rome/thumbnails/1.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/2.JPG"><img src="../img/rome/thumbnails/2.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/3.JPG"><img src="../img/rome/thumbnails/3.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/4.JPG"><img src="../img/rome/thumbnails/4.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/5.JPG"><img src="../img/rome/thumbnails/5.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/6.JPG"><img src="../img/rome/thumbnails/6.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/7.JPG"><img src="../img/rome/thumbnails/7.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/8.PNG"><img src="../img/rome/thumbnails/8.PNG"></a></div>
+		<div class="grid-item"><a href="../img/rome/9.JPG"><img src="../img/rome/thumbnails/9.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/10.JPG"><img src="../img/rome/thumbnails/10.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/11.JPG"><img src="../img/rome/thumbnails/11.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/12.JPG"><img src="../img/rome/thumbnails/12.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/13.JPG"><img src="../img/rome/thumbnails/13.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/14.JPG"><img src="../img/rome/thumbnails/14.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/15.JPG"><img src="../img/rome/thumbnails/15.JPG"></a></div>
+		<div class="grid-item"><a href="../img/rome/16.JPG"><img src="../img/rome/thumbnails/16.JPG"></a></div>
 	</div>
 	
-	<script>
-		var $grid = $('.grid').masonry({
-			itemSelector: '.grid-item',
-			columnWidth: 300,
-			fitWidth: true,
-			gutter: 10,
-		});
-		$grid.imagesLoaded().progress( function() {
-			$grid.masonry('layout');
-		});
-	</script>
+	<script src="../js/places-specific.js"></script>
 </body>
 </html>

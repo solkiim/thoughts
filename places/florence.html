@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/css.css">
 	<link rel="stylesheet" href="../css/places-specific.css">
+	<link rel="stylesheet" href="../css/magnificpopup.css">
 	
 	<script src="../js/jquery-3.1.0.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../js/magnificpopup.min.js"></script>
 </head>
 
 <body>
@@ -55,36 +57,26 @@
 	
 	
 	<!-- Images Grid -->
-	<div class="grid">
-		<div class="grid-item"><img src="../img/florence/IMG_4118.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4129.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4134.PNG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4117.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4124.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4130.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4140.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4135.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4139.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4131.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4125.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4127.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4138.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4136.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4137.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4120.JPG"></div>
-		<div class="grid-item"><img src="../img/florence/IMG_4128.JPG"></div>
+	<div class="grid popup-gallery">
+		<div class="grid-item"><a href="../img/florence/1.JPG"><img src="../img/florence/thumbnails/1.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/2.JPG"><img src="../img/florence/thumbnails/2.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/3.PNG"><img src="../img/florence/thumbnails/3.PNG"></a></div>
+		<div class="grid-item"><a href="../img/florence/4.JPG"><img src="../img/florence/thumbnails/4.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/5.JPG"><img src="../img/florence/thumbnails/5.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/6.JPG"><img src="../img/florence/thumbnails/6.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/7.JPG"><img src="../img/florence/thumbnails/7.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/8.JPG"><img src="../img/florence/thumbnails/8.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/9.JPG"><img src="../img/florence/thumbnails/9.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/10.JPG"><img src="../img/florence/thumbnails/10.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/11.JPG"><img src="../img/florence/thumbnails/11.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/12.JPG"><img src="../img/florence/thumbnails/12.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/13.JPG"><img src="../img/florence/thumbnails/13.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/14.JPG"><img src="../img/florence/thumbnails/14.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/15.JPG"><img src="../img/florence/thumbnails/15.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/16.JPG"><img src="../img/florence/thumbnails/16.JPG"></a></div>
+		<div class="grid-item"><a href="../img/florence/17.JPG"><img src="../img/florence/thumbnails/17.JPG"></a></div>
 	</div>
 	
-	<script>
-		var $grid = $('.grid').masonry({
-			itemSelector: '.grid-item',
-			columnWidth: 300,
-			fitWidth: true,
-			gutter: 10,
-		});
-		$grid.imagesLoaded().progress( function() {
-			$grid.masonry('layout');
-		});
-	</script>
+	<script src="../js/places-specific.js"></script>
 </body>
 </html>
