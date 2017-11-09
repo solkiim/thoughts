@@ -1,14 +1,18 @@
 /*------------------- PHOTO CAROUSEL -------------------*/
 #photos-container {
 	width: 100%;
+	left: 0;
 	margin: 0;
 	padding: 0;
-	height: 600px;
-/*	height: 50%;*/
+	position: absolute;
+	top: 50%;
+	margin-top: -300px;
 }
 
 .photos {
+	overflow-x: hidden;
 	margin: 0;
+	height: 600px;
 }
 
 .photos img {
@@ -22,6 +26,9 @@
 
 @media (max-width: 768px) {
 	#photos-container {
+		margin-top: -200px;
+	}
+	.photos {
 		height: 400px;
 	}
 	.photos img {

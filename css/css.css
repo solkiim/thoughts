@@ -144,5 +144,6 @@ a:hover, a:active {
 	}
 }
 #logo-title h6 {
+	font-size: 11px;
 	letter-spacing: 2px;
 }
