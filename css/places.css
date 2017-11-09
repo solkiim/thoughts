@@ -1,26 +1,38 @@
+/*------------- PLACES -------------*/
 body {
 	padding-bottom: 100px;
 }
+p {
+	letter-spacing: 2px;
+}
+p a {
+	font-weight: 800;
+	color: #96CDCD!important;
+}
+@media (max-width: 767px) {
+	p {
+		padding: 0 25px;
+	}
+}
 
+
+/*------------- PLACES GRID -------------*/
 #places {
 	width: 100%;
 	padding: 0 150px;
 	margin: 0;
 	margin-bottom: 100px;
 }
-
 #places .row {
 	padding: 0;
 	margin: 0px;
 }
-
 #places .row .col-sm-4 {
 	padding: 0;
 	padding-top: 25px;
 	margin: 0px;
 	letter-spacing: 2px;
 }
-
 #places img {
 	width: 90%;
 	height: auto;
@@ -28,20 +40,7 @@ body {
 	max-width: 300px;
 	margin-bottom: 25px;
 }
-
-p {
-	letter-spacing: 2px;
-}
-
-p a {
-	font-weight: 800;
-	color: #96CDCD!important;
-}
-
 @media (max-width: 767px) {
-	p {
-		padding: 0 25px;
-	}
 	#places {
 		width: 100%;
 		padding: 0 100px;
@@ -49,7 +48,6 @@ p a {
 		margin-bottom: 100px;
 	}
 }
-
 @media (max-width: 480px) {
 	#places {
 		margin-bottom: 50px;

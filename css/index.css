@@ -1,4 +1,4 @@
-/*------------------- PHOTO CAROUSEL -------------------*/
+/*------------- PHOTO CAROUSEL -------------*/
 #photos-container {
 	width: 100%;
 	left: 0;
@@ -6,15 +6,13 @@
 	padding: 0;
 	position: absolute;
 	top: 50%;
-	margin-top: -300px;
+	margin-top: -270px;
 }
-
 .photos {
 	overflow-x: hidden;
 	margin: 0;
 	height: 600px;
 }
-
 .photos img {
 	height: 600px; 
 	padding: 0;
@@ -23,7 +21,17 @@
 .photos img:focus {
 	outline:0;
 }
-
+@media (max-width: 900px) {
+	#photos-container {
+		margin-top: -230px;
+	}
+	.photos {
+		height: 500px;
+	}
+	.photos img {
+		height: 500px;
+	}
+}
 @media (max-width: 768px) {
 	#photos-container {
 		margin-top: -200px;

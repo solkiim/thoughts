@@ -1,4 +1,4 @@
-// masonry grid
+// MASONRY GRID
 var $grid = $('.grid').masonry({
 	itemSelector: '.grid-item',
 	columnWidth: 300,
@@ -10,7 +10,7 @@ $grid.imagesLoaded().progress( function() {
 });
 
 
-// magnific popup
+// MAGNIFIC POPUP
 $(document).ready(function() {
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',
@@ -34,3 +34,16 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+// SCROLL TO TOP
+window.onscroll = function() {
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        $("#scroll-to-top").show(300);
+    } else {
+        $("#scroll-to-top").hide(300);
+    }
+};
+function scrollToTop() {
+    $('html, body').animate({ scrollTop: 0 }, 600);
+}

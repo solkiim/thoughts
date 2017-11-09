@@ -1,3 +1,4 @@
+/*------------- FONTS -------------*/
 @font-face {
   font-family: 'HelveticaNeue-UltraLight';
   src: url('fonts/HelveticaNeue-UltraLight.eot');
@@ -9,7 +10,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'HelveticaNeue-Light';
   src: url('fonts/HelveticaNeue-Light.eot');
@@ -21,7 +21,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Signerica';
   src: url('fonts/Signerica.eot');
@@ -30,7 +29,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'SignericaFat';
   src: url('fonts/SignericaFat.woff') format('woff'),
@@ -40,6 +38,8 @@
   font-style: normal;
 }
 
+
+/*------------- GENERAL -------------*/
 body {
 	text-align: center;
 	background: #fff;
@@ -52,19 +52,16 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-
-/*------------------- GENERAL -------------------*/
 a:link, a:visited {
 	text-decoration: none;
     color: #919191;
 }
-
 a:hover, a:active {
 	color: black;
 }
 
 
-/* ------------------ NAVIGATION ------------------ */
+/* ------------ NAVIGATION ------------ */
 .navbar {
     z-index: 1000;
 	background-color: #fff;
@@ -87,16 +84,8 @@ a:hover, a:active {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
 	background-color: transparent;
 }
-.navbar-header {
-	display: flex;
-	align-items: center;
-}
-#hamburger-menu {
-	position: absolute;
-	right: 20px;
-}
 #myNavbar ul {
-    list-style: none; 
+    list-style: none;
 }
 #myNavbar ul li {
     letter-spacing: 3px;
@@ -122,9 +111,19 @@ a:hover, a:active {
 		padding-right: 50px;
 	}
 	.navbar .navbar-nav {
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 }
+@media (max-width: 767px) {
+	.navbar {
+		margin-top: 20px;
+	}
+	.navbar .navbar-nav {
+		padding-bottom: 10px;
+	}
+}
+
+/* logo title in nav (sol etc) */
 #logo-title {
 	float: left;
 	text-align: left;
@@ -133,6 +132,7 @@ a:hover, a:active {
 }
 #logo-title h1 {
 	font-family: 'SignericaFat', 'Signerica';
+	margin-top: 15px;
 }
 @media (max-width: 480px) {
 	#logo-title h1 {
@@ -146,4 +146,47 @@ a:hover, a:active {
 #logo-title h6 {
 	font-size: 11px;
 	letter-spacing: 2px;
+}
+
+/* nav vertical centering */
+.navbar-header {
+	display: flex;
+	align-items: center;
+}
+#hamburger-menu {
+	position: absolute;
+	right: 20px;
+}
+
+/* hamburger nav toggle animation */
+.navbar-toggle {
+	border: none;
+	background: transparent !important;
+}
+.navbar-toggle:hover {
+	background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+	width: 22px;
+	transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+	opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+	transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+	opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+	transform: rotate(0);
 }

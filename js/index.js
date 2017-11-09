@@ -1,3 +1,4 @@
+// PHOTO CAROUSEL
 $(document).ready(function(){
 	$('.photos').slick({
 		accessibility: true,

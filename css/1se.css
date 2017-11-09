@@ -1,19 +1,20 @@
+/*------------- DESCRIPTION -------------*/
 .secondeveryday {
 	width: 70%;
 	max-width: 650px;
 	margin: 0 auto;
 }
-
 .secondeveryday h2 {
 	letter-spacing: 5px;
 	margin-bottom: 15px;
 }
-
 .secondeveryday h5 {
 	letter-spacing: 2px;
 	margin-bottom: 25px;
 }
 
+
+/*------------- VIDEO -------------*/
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -21,7 +22,6 @@
 	overflow:hidden;
 	margin: 0 auto;
 }
-
 .video-container iframe, .video-container object, .video-container embed {
 	position:absolute;
 	top:0;

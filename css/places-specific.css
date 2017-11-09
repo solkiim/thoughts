@@ -1,58 +1,75 @@
+/*------------- DESCRIPTION -------------*/
 .place-description {
 }
-
 .place-description h1 {
 	letter-spacing: 5px;
-/*	font-weight: 800;*/
 	color: #000;
 	margin-bottom: 15px;
 }
-
-.grid {
-	margin: 0 auto;
-	margin-bottom: 100px;
-}
-
 .place-description h6 {
 	letter-spacing: 2px;
 	margin-bottom: 50px;
 }
 
+
+/*------------- IMAGE GRID -------------*/
+.grid {
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
 .grid-item {
 	width: 300px;
 	margin-bottom: 10px;
 }
-
 .grid-item a:focus {
 	outline: 0;
 }
-
 .grid-item img {
 	width: 300px;
 }
 
 
-
-/*magnificpopup*/
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
+/*------------- MAGNIFIC POPUP -------------*/
+.mfp-with-zoom .mfp-container, .mfp-with-zoom.mfp-bg {
 	opacity: 0;
 	-webkit-backface-visibility: hidden;
-	/* ideally, transition speed should match zoom duration */
 	-webkit-transition: all 0.15s ease-out; 
 	-moz-transition: all 0.15s ease-out; 
 	-o-transition: all 0.15s ease-out; 
 	transition: all 0.15s ease-out;
 }
-
 .mfp-with-zoom.mfp-ready .mfp-container {
 		opacity: 1;
 }
 .mfp-with-zoom.mfp-ready.mfp-bg {
 		opacity: 0.8;
 }
-
-.mfp-with-zoom.mfp-removing .mfp-container, 
-.mfp-with-zoom.mfp-removing.mfp-bg {
+.mfp-with-zoom.mfp-removing .mfp-container, .mfp-with-zoom.mfp-removing.mfp-bg {
 	opacity: 0;
+}
+
+
+/*------------- SCROLL TO TOP -------------*/
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+	height: 60px;
+	width: 60px;
+    border: none;
+    outline: none;
+    background-color: #cfcfd8;
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+	opacity: 0.9;
+}
+#scroll-to-top img {
+	height: 25px;
+}
+#scroll-to-top:hover {
+    background-color: #96CDCD;
+	opacity: 1;
 }
