@@ -87,6 +87,14 @@ a:hover, a:active {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
 	background-color: transparent;
 }
+.navbar-header {
+	display: flex;
+	align-items: center;
+}
+#hamburger-menu {
+	position: absolute;
+	right: 20px;
+}
 #myNavbar ul {
     list-style: none; 
 }
@@ -117,13 +125,6 @@ a:hover, a:active {
 		margin-top: 40px;
 	}
 }
-/*
-@media (max-width: 767px) {
-	.nav {
-		height: 50px;
-	}
-}
-*/
 #logo-title {
 	float: left;
 	text-align: left;
@@ -131,25 +132,16 @@ a:hover, a:active {
 	margin-left: 50px;
 }
 #logo-title h1 {
-/*
-	font-family: 'Argentinian Nights by Kestrel Montes';
-	font-family: 'Eastpine';
-	font-family: 'Elfa Brush';
-	font-family: 'Get Lucky';
-	font-family: 'Jacques & Gilles';
-	font-family: 'King Size';
-	font-family: 'Markella';
-	font-family: 'Mocking';
-	font-family: 'Rabusto';
-	font-family: 'Scallion';
-	font-family: 'Selima';
-*/
 	font-family: 'SignericaFat', 'Signerica';
-/*
-	font-family: 'silicia script';
-	font-family: 'streetlight';
-	letter-spacing: 5px;
-*/
+}
+@media (max-width: 480px) {
+	#logo-title h1 {
+		padding-top: 10px;
+		font-size: 22px;
+	}
+	#logo-title h6 {
+		display: none;
+	}
 }
 #logo-title h6 {
 	letter-spacing: 2px;

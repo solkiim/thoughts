@@ -24,3 +24,15 @@
 	font-weight: 800;
 	color: #000;
 }
+
+@media (max-width: 767px) {
+	#books {
+		padding: 0 25px;
+	}
+	#books h4 {
+		font-size: 25px;
+	}
+	#booklist li {
+		font-size: 13px;
+	}
+}

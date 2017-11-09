@@ -26,10 +26,6 @@ body {
 	height: auto;
 	max-height: 300px;
 	max-width: 300px;
-/*
-	min-height: 150px;
-	min-width: 150px;
-*/
 	margin-bottom: 25px;
 }
 
@@ -40,4 +36,22 @@ p {
 p a {
 	font-weight: 800;
 	color: #96CDCD!important;
+}
+
+@media (max-width: 767px) {
+	p {
+		padding: 0 25px;
+	}
+	#places {
+		width: 100%;
+		padding: 0 100px;
+		margin: 0;
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 480px) {
+	#places {
+		margin-bottom: 50px;
+	}
 }
