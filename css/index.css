@@ -14,13 +14,13 @@
 	overflow-x: hidden;
 	margin: 0;
 	height: 600px;
-	visibility:hidden;
-	opacity:0;	 
+	visibility: hidden;
+	opacity: 0;	 
 	transition: opacity 1s;
 }
 .photos.slick-initialized{
-	visibility:visible;
-	opacity:1;
+	visibility: visible;
+	opacity: 1;
 }
 .photos .carousel-photo{
 	display: none;
