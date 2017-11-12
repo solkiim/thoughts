@@ -17,6 +17,16 @@
 	letter-spacing: 2px;
 	margin-bottom: 25px;
 }
+@media (max-width: 767px) {
+	.secondeveryday h2 {
+		margin-top: 30px;
+		font-size: 23px;
+		padding: 0 30px;
+	}
+	.secondeveryday h5 {
+		font-size: 13px;
+	}
+}
 
 
 /*------------- VIDEO -------------*/

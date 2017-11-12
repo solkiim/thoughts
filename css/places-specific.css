@@ -1,3 +1,12 @@
+#place {
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1s; /* Firefox < 16 */
+	-ms-animation: fadein 1s; /* Internet Explorer */
+	-o-animation: fadein 1s; /* Opera < 12.1 */
+	animation: fadein 1s;
+}
+
+
 /*------------- DESCRIPTION -------------*/
 .place-description {
 }
@@ -9,6 +18,14 @@
 .place-description h6 {
 	letter-spacing: 2px;
 	margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+	.place-description {
+		margin-top: 30px;
+	}
+	.place-description h1 {
+		font-size: 22px;
+	}
 }
 
 

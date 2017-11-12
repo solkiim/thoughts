@@ -116,7 +116,7 @@ a:hover, a:active {
 }
 @media (max-width: 767px) {
 	.navbar {
-		margin-top: 20px;
+/*		margin-top: 10px;*/
 	}
 	.navbar .navbar-nav {
 		padding-bottom: 10px;
