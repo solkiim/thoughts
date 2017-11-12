@@ -1,3 +1,9 @@
+$('.photos').on('init',function(event, slick){
+  setTimeout(function(){
+	  $('.photos').slick('slickPause');
+  }, 2.5);
+});
+
 // PHOTO CAROUSEL
 $(document).ready(function(){
 	$('.photos').slick({
