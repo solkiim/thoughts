@@ -1,11 +1,5 @@
-$('.photos').on('init',function(event, slick){
-  setTimeout(function(){
-	  $('.photos').slick('slickPause');
-  }, 2.5);
-});
-
 // PHOTO CAROUSEL
-$(document).ready(function(){
+$(window).on("load", function() {
 	$('.photos').slick({
 		accessibility: true,
 		autoplay: true,
@@ -15,6 +9,7 @@ $(document).ready(function(){
 		centerPadding: '10px',
 		focusOnSelect: true,
 		initialSlide: 0,
+		lazyLoad: 'progressive',
 		pauseOnHover: false,
 		slidesToShow: 1,
 		speed: 1000,

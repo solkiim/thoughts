@@ -7,9 +7,19 @@
 	position: absolute;
 	top: 50%;
 	margin-top: -270px;
+	text-align: center;
 }
 
 /* attempt to block fouc */
+#placeholder {
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 0;
+}
 .photos {
 	overflow-x: hidden;
 	margin: 0;
@@ -17,6 +27,11 @@
 	visibility: hidden;
 	opacity: 0;	 
 	transition: opacity 1s;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #fff;
 }
 .photos.slick-initialized {
 	visibility: visible;
@@ -30,7 +45,6 @@
 }
 .photos .carousel-photo:first-child {
 	display: block;
-	visibility: hidden;
 } 
 .photos.slick-initialized .carousel-photo{
 	display: block;
@@ -42,6 +56,9 @@
 	outline:0;
 }
 @media (max-width: 900px) {
+	#placeholder {
+		height: 500px;
+	}
 	#photos-container {
 		margin-top: -230px;
 	}
@@ -53,6 +70,9 @@
 	}
 }
 @media (max-width: 768px) {
+	#placeholder {
+		height: 400px;
+	}
 	#photos-container {
 		margin-top: -200px;
 	}
