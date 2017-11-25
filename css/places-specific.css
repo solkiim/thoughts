@@ -32,7 +32,8 @@
 /*------------- IMAGE GRID -------------*/
 .grid {
 	margin: 0 auto;
-	margin-bottom: 100px;
+/*	margin-bottom: 100px;*/
+	margin-bottom: 80px;
 }
 .grid-item {
 	width: 300px;
@@ -63,6 +64,38 @@
 }
 .mfp-with-zoom.mfp-removing .mfp-container, .mfp-with-zoom.mfp-removing.mfp-bg {
 	opacity: 0;
+}
+
+
+/*------------- PLACES NAV -------------*/
+#places-nav {
+	padding: 0 50px;
+	margin-bottom: 100px;
+}
+#places-nav .col-xs-4 {
+	display: inline-block;
+}
+#places-nav img {
+	height: 15px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+#places-nav p {
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 3px;
+	display: inline-block;
+	color: #000;
+	vertical-align: bottom;
+	margin: 0;
+}
+#prev-place img {
+	margin-right: 5px;
+}
+#all-places {
+}
+#next-place img {
+	margin-left: 2px;
 }
 
 
