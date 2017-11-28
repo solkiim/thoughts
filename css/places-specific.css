@@ -108,6 +108,36 @@
 #next-place img {
 	margin-left: 2px;
 }
+@media (max-width: 767px) {
+	#places-nav {
+		padding: 0 100px;
+	}
+	#places-nav img {
+		display: block;
+		position: relative;
+		top: 0;
+	}
+	#places-nav p {
+		display: block;
+		position: relative;
+		bottom: 0;
+	}
+	#prev-place img {
+		top: 18px;
+	}
+	#prev-place p {
+		top: -15px;
+	}
+	#next-place img {
+		margin-left: auto;
+	}
+	#prev-place {
+		text-align: left;
+	}
+	#next-place {
+		text-align: right;
+	}
+}
 
 
 /*------------- SCROLL TO TOP -------------*/
