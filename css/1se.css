@@ -12,10 +12,13 @@
 .secondeveryday h2 {
 	letter-spacing: 5px;
 	margin-bottom: 15px;
+	/* font-family: 'Signerica';
+	font-weight: bold;
+	font-size: 30px; */
 }
-.secondeveryday h5 {
+.secondeveryday p {
 	letter-spacing: 2px;
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 }
 @media (max-width: 767px) {
 	.secondeveryday h2 {
@@ -23,7 +26,7 @@
 		font-size: 23px;
 		padding: 0 30px;
 	}
-	.secondeveryday h5 {
+	.secondeveryday p {
 		font-size: 13px;
 	}
 }
@@ -35,7 +38,7 @@
 	padding-bottom:56.25%;
 	height:0;
 	overflow:hidden;
-	margin: 0 auto;
+	margin: 0 auto 60px;
 }
 .video-container iframe, .video-container object, .video-container embed {
 	position:absolute;
