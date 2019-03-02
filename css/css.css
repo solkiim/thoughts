@@ -1,23 +1,23 @@
 /*------------- FONTS -------------*/
 @font-face {
-  font-family: 'HelveticaNeue-UltraLight';
-  src: url('fonts/HelveticaNeue-UltraLight.eot');
-  src: url('fonts/HelveticaNeue-UltraLight.woff2') format('woff2'),
-       url('fonts/HelveticaNeue-UltraLight.woff') format('woff'),
-       url('fonts/HelveticaNeue-UltraLight.ttf') format('truetype'),
-       url('fonts/HelveticaNeue-UltraLight.svg#HelveticaNeue-UltraLight') format('svg'),
-       url('fonts/HelveticaNeue-UltraLight.eot?#iefix') format('embedded-opentype');
+  font-family: 'Avenir-Light';
+  src: url('fonts/Avenir-Light.eot');
+  src: url('fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Avenir-Light.svg#Avenir-Light') format('svg'),
+       url('fonts/Avenir-Light.ttf') format('truetype'),
+       url('fonts/Avenir-Light.woff') format('woff'),
+       url('fonts/Avenir-Light.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'HelveticaNeue-Light';
-  src: url('fonts/HelveticaNeue-Light.eot');
-  src: url('fonts/HelveticaNeue-Light.woff2') format('woff2'),
-       url('fonts/HelveticaNeue-Light.woff') format('woff'),
-       url('fonts/HelveticaNeue-Light.ttf') format('truetype'),
-       url('fonts/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg'),
-       url('fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype');
+  font-family: 'Avenir-Medium';
+  src: url('fonts/Avenir-Medium.eot');
+  src: url('fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Avenir-Medium.svg#Avenir-Medium') format('svg'),
+       url('fonts/Avenir-Medium.ttf') format('truetype'),
+       url('fonts/Avenir-Medium.woff') format('woff'),
+       url('fonts/Avenir-Medium.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,11 +44,8 @@ body {
 	text-align: center;
 	background: #fff;
 	height: 100%;
-	font-family: 'HelveticaNeue-Light', "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-/*
-	font-family: 'Avenir-Light';
-	font-family: 'GillSans-Light';
-*/
+	font-family: 'Avenir-Light', Avenir, Arial, sans-serif;
+/*	font-family: 'GillSans-Light';*/
 	margin: 0px;
 	padding: 0px;
 }
@@ -57,7 +54,8 @@ a:link, a:visited {
     color: #919191;
 }
 a:hover, a:active {
-	color: black;
+	color: #000;
+	font-weight: 600;
 }
 
 
@@ -94,11 +92,10 @@ a:hover, a:active {
 	text-decoration: none;
 	color: #919191;
 }
-#myNavbar a:hover {
-	color: #000;
-}
-#myNavbar .active a {
+#myNavbar a:hover, #myNavbar .active a {
     color: #000;
+	font-family: 'Avenir-Medium';
+	font-weight: 600;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent;
