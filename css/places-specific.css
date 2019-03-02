@@ -140,6 +140,21 @@
 		text-align: right;
 	}
 }
+@media (max-width: 480px) {
+	#prev-place img, #next-place img {
+		top: -2px;
+		height: 22px;
+	}
+	#prev-place .col-xs-4 {
+		padding-left: 0;
+	}
+	#next-place .col-xs-4 {
+		padding-right: 0;
+	}
+	#prev-place p, #next-place p {
+		display: none;
+	}
+}
 
 
 /*------------- SCROLL TO TOP -------------*/
