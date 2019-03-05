@@ -1,6 +1,6 @@
 // PHOTO CAROUSEL
 $(window).on("load", function() {
-	$('.photos').slick({
+	$('.index-photos').slick({
 		accessibility: true,
 		autoplay: true,
 		autoplaySpeed: 2500,
