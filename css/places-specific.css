@@ -1,9 +1,4 @@
-#place {
-	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 1s; /* Firefox < 16 */
-	-ms-animation: fadein 1s; /* Internet Explorer */
-	-o-animation: fadein 1s; /* Opera < 12.1 */
-	animation: fadein 1s;
+.place {
 	max-width: 1400px;
 	margin: 0px auto;
 	padding: 0px 50px;
@@ -11,8 +6,6 @@
 
 
 /*------------- DESCRIPTION -------------*/
-.place-description {
-}
 .place-description h1 {
 	letter-spacing: 5px;
 	color: #000;

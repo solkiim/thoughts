@@ -49,6 +49,12 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+p {
+	letter-spacing: 2px;
+}
+h2 {
+	letter-spacing: 5px;
+}
 a:link, a:visited {
 	text-decoration: none;
     color: #919191;
@@ -59,6 +65,13 @@ a:hover, a:active {
 }
 
 /* fadeins */
+.fadein {
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1s; /* Firefox < 16 */
+	-ms-animation: fadein 1s; /* Internet Explorer */
+	-o-animation: fadein 1s; /* Opera < 12.1 */
+	animation: fadein 1s;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -301,11 +314,6 @@ a:hover, a:active {
 /* text */
 #about {
 	padding: 0 50px;
-	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 1s; /* Firefox < 16 */
-	-ms-animation: fadein 1s; /* Internet Explorer */
-	-o-animation: fadein 1s; /* Opera < 12.1 */
-	animation: fadein 1s;
 }
 #about #intro-image {
 	width: 100%;
@@ -315,14 +323,13 @@ a:hover, a:active {
 	padding: 0 30px;
 	text-align: left;
 }
-#about #intro h4 {
+#about #intro h1 {
 	font-size: 30px;
 	letter-spacing: 10px;
 	margin-bottom: 30px;
 	text-align: center;
 }
 #about #intro p {
-	letter-spacing: 2px;
 	line-height: 30px;
 	margin-bottom: 45px;
 }
@@ -338,7 +345,7 @@ a:hover, a:active {
 		margin-top: 40px;
 		text-align: center;
 	}
-	#about #intro h4 {
+	#about #intro h1 {
 		font-size: 23px;
 	}
 	#about #intro p {
@@ -368,15 +375,7 @@ a:hover, a:active {
 
 /*-------------------------- PLACES --------------------------*/
 #travels {
-	-webkit-animation: fadein 1s;
-	-moz-animation: fadein 1s;
-	-ms-animation: fadein 1s;
-	-o-animation: fadein 1s;
-	animation: fadein 1s;
 	padding-bottom: 100px;
-}
-#travels p {
-	letter-spacing: 2px;
 }
 #travels p a {
 	font-weight: 800;
@@ -430,47 +429,37 @@ a:hover, a:active {
 
 /*-------------------------- SNIPPETS --------------------------*/
 /* description */
-.secondeveryday {
+#secondeveryday {
 	width: 70%;
 	max-width: 650px;
 	margin: 0 auto;
-	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 1s; /* Firefox < 16 */
-	-ms-animation: fadein 1s; /* Internet Explorer */
-	-o-animation: fadein 1s; /* Opera < 12.1 */
-	animation: fadein 1s;
 }
-.secondeveryday h2 {
-	letter-spacing: 5px;
+#secondeveryday h2 {
 	margin-bottom: 15px;
-	/* font-family: 'Signerica';
-	font-weight: bold;
-	font-size: 30px; */
 }
-.secondeveryday p {
-	letter-spacing: 2px;
+#secondeveryday p {
 	margin-bottom: 18px;
 }
 @media (max-width: 767px) {
-	.secondeveryday h2 {
+	#secondeveryday h2 {
 		margin-top: 30px;
 		font-size: 23px;
 		padding: 0 30px;
 	}
-	.secondeveryday p {
+	#secondeveryday p {
 		font-size: 13px;
 	}
 }
 
 /* video */
-.video-container {
+#secondeveryday .video-container {
 	position:relative;
 	padding-bottom:56.25%;
 	height:0;
 	overflow:hidden;
 	margin: 0 auto 60px;
 }
-.video-container iframe, .video-container object, .video-container embed {
+#secondeveryday .video-container iframe, #secondeveryday .video-container object, #secondeveryday .video-container embed {
 	position:absolute;
 	top:0;
 	left:0;
