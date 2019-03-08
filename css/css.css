@@ -382,7 +382,13 @@ a:hover, a:active {
 	color: #96CDCD!important;
 }
 @media (max-width: 767px) {
+	#travels h2 {
+		margin-top: 30px;
+		font-size: 23px;
+		padding: 0 30px;
+	}
 	#travels p {
+		font-size: 13px;
 		padding: 0 25px;
 	}
 }

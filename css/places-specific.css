@@ -3,6 +3,11 @@
 	margin: 0px auto;
 	padding: 0px 50px;
 }
+@media (max-width: 400px) {
+	.place {
+		padding: 0px;
+	}
+}
 
 
 /*------------- DESCRIPTION -------------*/
