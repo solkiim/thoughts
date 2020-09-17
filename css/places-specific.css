@@ -20,12 +20,21 @@
 	letter-spacing: 2px;
 	margin-bottom: 50px;
 }
+.place-sub-description h2 {
+	letter-spacing: 4px;
+	color: #000;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
 @media (max-width: 767px) {
 	.place-description {
 		margin-top: 30px;
 	}
 	.place-description h1 {
 		font-size: 22px;
+	}
+	.place-sub-description h1 {
+		font-size: 15px;
 	}
 }
 
